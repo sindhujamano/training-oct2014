@@ -1,0 +1,15 @@
+2014-11-20 13:28:22,790 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bayamp.apitests:apitests:1.0.0 @ /Users/harisha/git-newrepo-nov20/apitests/pom.xml.
+2014-11-20 13:28:23,046 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apitests/src/main/java
+2014-11-20 13:28:23,047 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apitests/src/main/resources
+2014-11-20 13:28:23,047 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apitests/src/test/java
+2014-11-20 13:28:23,048 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apitests/src/test/resources
+2014-11-20 13:28:26,372 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bayamp.apitests:apitests:1.0.0 @ /Users/harisha/git-newrepo-nov20/apitests/pom.xml.
+2014-11-20 13:28:26,440 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-20 13:28:26,445 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-20 13:28:26,448 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-20 13:28:26,448 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-20 13:28:26,940 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bayamp.apitests:apitests:1.0.0 @ /Users/harisha/git-newrepo-nov20/apitests/pom.xml.
+2014-11-20 13:28:27,613 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-20 13:28:27,616 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-20 13:28:27,618 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-20 13:28:27,618 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
