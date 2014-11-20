@@ -1,0 +1,10 @@
+package com.bayamp.cart.functional;
+
+public class FunctionalTests {
+	
+	@Test
+	public void method1(){
+		System.out.println("Test Method");
+	}
+
+}
