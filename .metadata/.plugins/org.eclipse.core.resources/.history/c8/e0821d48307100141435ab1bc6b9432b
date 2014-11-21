@@ -1,0 +1,67 @@
+package com.bayamp.cart.functional;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.testng.annotations.Test;
+
+public class FunctionalTests {
+	
+	@Test
+	public void removeDuplicatesTest(){
+		int[] myArray = {4,2,10,1,5,3,12,7};
+		//Print the array before removing duplicates
+		print(myArray);
+		removeDuplicates(myArray);
+		//Print the array after removing duplicates
+		print(myArray);
+	}
+	
+	@Test
+	public void sortTest(){
+		int[] myArray = {4,2,8,1,5,3,12,7};
+		//Print the array before sorting
+		print(myArray);
+		
+		sortMyArray(myArray);
+		//Print the array aft sorting
+		print(myArray);
+		
+	}
+	
+	private void sortMyArray(int[] array){
+		//Print the array before sorting
+		Arrays.sort(array);
+	}
+	
+	private int[] removeDuplicates(int[] array){
+		
+		TreeSet mySet = new TreeSet((ArrayList) Arrays.asList(array));
+		
+		Set set = new HashSet(array);
+		
+		int[] temp = new int[mySet.size()];
+		
+		ArrayList list = new ArrayList(mySet);
+		
+		for(int i=0;i<temp.length;i++){
+			Integer intValue= (Integer) list.get(i);
+		}
+		
+		return temp;
+	}
+	
+	private void print(int[] array){
+		System.out.print("{");
+		for(int i=0;i<array.length;i++){
+			System.out.print(array[i]+",");
+		}
+		System.out.print("}\n");
+	}
+	
+
+
+}

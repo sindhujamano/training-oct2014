@@ -1,0 +1,40 @@
+package com.bayamp.cart.functional;
+
+import java.util.Arrays;
+
+import org.testng.annotations.Test;
+
+public class FunctionalTests {
+	
+	@Test
+	public void removeDuplicatesTest(){
+		int[] myArray = {4,2,10,1,5,3,12,7};
+		//Print the array before sorting
+		//print(myArray);
+	}
+	
+	@Test
+	public void sortTest(){
+		int[] myArray = {4,2,8,1,5,3,12,7};
+		//Print the array before sorting
+		print(myArray);
+		//Print the array aft sorting
+		print(myArray);
+		
+	}
+	
+	private void sortMyArray(int[] array){
+		//Print the array before sorting
+		Arrays.sort(array);
+	}
+	
+	private void print(int[] array){
+		System.out.print("{");
+		for(int i=0;i<array.length;i++){
+			System.out.printl(array[i]);
+		}
+		System.out.print("}");
+	}
+	
+
+}
